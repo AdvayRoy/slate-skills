@@ -1,0 +1,27 @@
+{
+  "name": "slate-skills",
+  "version": "0.1.0",
+  "description": "Token-efficient skills for Codex and Claude Code. Less agent noise. More engineering signal.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "slate-skills": "./bin/install.js"
+  },
+  "scripts": {
+    "list": "node bin/install.js --list",
+    "sync": "node bin/sync.js",
+    "test": "node tests/install.test.js && node tests/manifest.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "skills",
+    "docs",
+    "bin",
+    "commands",
+    "README.md",
+    "INSTALL.md",
+    "LICENSE"
+  ]
+}

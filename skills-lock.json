@@ -1,0 +1,21 @@
+{
+  "name": "slate-skills",
+  "version": "0.1.0",
+  "skills": [
+    "slate",
+    "slate-minify",
+    "slate-debug",
+    "slate-diff",
+    "slate-review",
+    "slate-commit",
+    "slate-compress",
+    "slate-run"
+  ],
+  "targets": [
+    "codex:.agents/skills",
+    "claude:.claude/skills"
+  ],
+  "runtime": "none-required",
+  "network": false,
+  "telemetry": false
+}

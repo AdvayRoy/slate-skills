@@ -1,0 +1,15 @@
+{
+  "name": "slate",
+  "version": "0.1.0",
+  "description": "Token-efficient skills for Claude Code. Less agent noise. More engineering signal.",
+  "skills": [
+    "plugins/slate/skills/slate",
+    "plugins/slate/skills/slate-minify",
+    "plugins/slate/skills/slate-debug",
+    "plugins/slate/skills/slate-diff",
+    "plugins/slate/skills/slate-review",
+    "plugins/slate/skills/slate-commit",
+    "plugins/slate/skills/slate-compress",
+    "plugins/slate/skills/slate-run"
+  ]
+}
